@@ -1,0 +1,286 @@
+#manager-dash
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    .emp-b
+    {
+        position: relative;
+        width: 100%;
+        height: 320px;
+        background-color: white;
+        padding: 5px;
+        
+        .img-p
+        {
+            position: relative;
+            width: 100%;
+            height: 150px;
+            border-radius: 10px;
+            background-color: $primary;
+            .icon-b
+            {
+                position: relative;
+                margin: auto;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                height: 130px;
+                width: 130px;
+                border-radius: 50%;
+                background-color: white;
+                overflow: hidden;
+                padding: 20px;
+            }
+        }
+        .info-b
+        {
+            width: 100%;
+            height: 170px;
+            padding: 15px;
+            // background-color: yellow;
+            .box
+            {
+                width: 100%;
+                height: 30px;
+                // background-color: yellow;
+                display: flex;
+                justify-content: space-between;
+            }
+            .title
+            {
+                text-align: center;
+                 a
+                 {
+                    color: $scd;
+                    text-decoration-line: none;
+                 }
+            }
+        }
+    }
+
+    .emp-b:hover
+    {
+        // box-shadow: 10px 5px 5px #013a5770;
+        box-shadow: 0 0 15px #013a572c;
+
+    }
+    .new-list:hover
+    {
+        // box-shadow: 10px 5px 5px #013a5770;
+        box-shadow: 0 0 15px #013a572c;
+
+    }
+
+    .new-list
+    {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        .title-ban
+        {
+            position: relative;
+            width: 100%;
+            height: 50px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            background-image: url("/images/newUser.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; 
+            text-align: center;
+            color: white;
+            font-size: 25px;
+            padding-top: 10px;
+            // text-shadow: 0 0 15px #095270;
+        }
+        .stat-p {
+            position: relative;
+            width: 75px;
+            height: 75px;
+            padding: 15px;
+            overflow: hidden;
+        }
+    }
+}
+
+
+#admin-dash
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    .emp-b
+    {
+        position: relative;
+        width: 100%;
+        height: 270px;
+        background-color: white;
+        padding: 5px;
+        // margin-top: 8px;
+        
+        .img-p
+        {
+            position: relative;
+            width: 100%;
+            height: 120px;
+            border-radius: 10px;
+            background-color: $primary;
+            .icon-b
+            {
+                position: relative;
+                margin: auto;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                background-color: white;
+                overflow: hidden;
+                padding: 20px;
+            }
+        }
+        .info-b
+        {
+            width: 100%;
+            height: 140px;
+            padding: 8px 0 5px 1px;
+            // background-color: yellow;
+            .box
+            {
+                padding:  8px 10px 10px 10px;
+                width: 100%;
+                height: 30px;
+                // background-color: yellow;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 5px;
+            }
+            .title
+            {
+                text-align: center;
+                 a
+                 {
+                    color: $scd;
+                    text-decoration-line: none;
+                 }
+            }
+        }
+    }
+
+    .emp-b:hover
+    {
+        box-shadow: 0 0 15px #013a572c;
+
+        // box-shadow: 10px 5px 5px #013a5770;
+    }
+    .stat-b
+    {
+        position: relative;
+        width: 100%;
+        height: 368px;
+        padding: 10px;
+        // background-color: aqua;
+        // margin-top: 15px;
+        // margin-bottom: 5px;
+        .title-ban
+        {
+            position: relative;
+            width: 100%;
+            height: 43px;
+            margin-bottom: 7px;
+            border-radius: 10px;
+            background-image: url("/images/stat.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: #095270;
+            background-size: cover; 
+            text-align: center;
+            color: white;
+            font-size: 25px;
+            // padding-top: 10px;
+        }
+
+        .boxes
+        {
+            position: relative;
+            width: 100%;
+            height: 95px;
+            // background-color: aquamarine;
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-between;
+
+            .img-p
+            {
+                position: relative;
+                width: 18%;
+                // height: 100%;
+                border-radius: 10px;
+                // background-color: $primary;
+                .icon-b
+                {
+                    position: relative;
+                    margin: auto;
+                    // margin-top: 10px;
+                    // margin-bottom: 10px;
+                    height: 90px;
+                    width: 100px;
+                    // border-radius: 50%;
+                    background-color: white;
+                    overflow: hidden;
+                    padding: 8px;
+                }
+            }
+
+            .info-b
+            {
+                position: relative;
+                width: 60%;
+                height: 100%;
+                // background-color: rgb(222, 233, 233);
+                padding: 5px;
+
+                .title
+                {
+                    text-align: center;
+                    font-size: 16px;
+                }
+                .box
+                {
+                    position: relative;
+                    height: 30%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    // background-color: brown;
+                    // padding: 0 10px 0 10px;
+                }
+            }
+            .icon
+            {
+                position: relative;
+                width: 15%;
+                height: 100%;
+                
+               .voir
+               {
+                   position: relative;
+                   height: 100%;
+                   width: 100%;
+                   margin-top: 40px;
+                //    margin-left: 15px;
+               }
+            }
+        }
+
+    }
+    .stat-b:hover
+    {
+        box-shadow: 0 0 15px #013a572c;
+        // box-shadow: 10px 5px 5px #013a5770;
+    }
+}

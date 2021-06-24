@@ -1,0 +1,375 @@
+#app-auth
+{   
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(228, 228, 242);
+    justify-content: center;
+    // font-style: capitalize;
+
+    // padding-top: 10px;
+    // padding-bottom: 10px;
+    .auth-box
+    {
+
+        position: relative;
+        display: flex;
+        width: 1000px;
+        height:650px;
+        // background-color: rgb(230, 82, 82);
+        border-radius: 15px;
+        margin: auto;
+        justify-content: center;
+        .auth-img
+        {
+            position: relative;
+            width: 480px;
+            height: 100%;
+            overflow: hidden;
+            background-color: rgba(95, 132, 255, 0.131);
+        
+            .auth-img-p
+            {
+                position: relative;
+                width: auto;
+                height: 100%;
+                overflow: hidden;
+            }
+          
+        }
+        .auth-f
+        {
+            position: relative;
+            width: 400px;
+            height: 50%;
+            .auth-card
+            {
+                position: relative;
+                // background-color: rgb(40, 161, 56);
+                width: 100%;
+                height: 80%;
+                margin: auto;
+                align-items: center;
+                .logo
+                {
+                    position: relative;
+                    width: 100px;
+                    height: 100px;
+                    margin: auto;
+                    // background-color: rgb(76, 102, 23);
+                }
+              
+                .form
+                {
+                    position: relative;
+                    width: 100%;
+                    height: 70%;
+                    text-align: center;
+                    padding: 15px;
+                    // background-color: #0B0865;
+                }
+
+              
+            }  
+        }
+        .auth-form
+        {
+            position: relative;
+            width: 480px;
+            height: 100%;
+            // padding: 15px;
+            // background-color: rgb(19, 15, 15);
+            .auth-card
+                {
+                    position: relative;
+                    // background-color: rgb(40, 161, 56);
+                    width: 100%;
+                    height: 100%;
+                    margin: auto;
+                    // padding: 15px;
+                    align-items: center;
+                    .logo
+                    {
+                        position: relative;
+                        width: 100px;
+                        height: 120px;
+                        padding-top: 10px;
+                        margin: auto;
+                        // background-color: rgb(76, 102, 23);
+                    }
+                    .form-c 
+                    {
+                        position: relative;
+                        width: 100%;
+                        height: 80%;
+                        text-align: center;
+                        padding: 15px;
+                    }
+                    .form
+                    {
+                        position: relative;
+                        width: 100%;
+                        height: 70%;
+                        text-align: center;
+                        padding: 15px;
+                        // background-color: #0B0865;
+                    }
+
+                    .form-r
+                    {
+                        width: 100%;
+                        height: 100%;
+                       
+                    }
+                    .form-c , .form-r
+                        {
+                            position: relative;
+                            text-align: center;
+                            padding: 15px;
+                        
+                            .input-div{
+                                position: relative;
+                                width: 100%;
+                                height: 45px;
+                                
+                                background-color: white;
+                            
+                            }
+                            .input-div input,
+                            .input-div select{
+                                position: relative;
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 0;
+                                border:none;
+                                border: 0.25px solid rgba(0, 0, 0, 0.281);
+                                border-radius: 5px;
+                                border-radius: 10px;
+                                
+                            }
+                            .input-div label{
+                                position: absolute;
+                                top: 5px;
+                                left: 5px;
+                                font-size: 16px;
+                                pointer-events: none;
+                                padding: 5px 18px;
+                                transition: 0.25s ease-in;
+                                background: #ffffff;
+                            }
+                            .input-div input:focus ~ label, .input-div input:valid ~ label,
+                            .input-div select:focus ~ label, .input-div select:valid ~ label{
+                            
+                                position: absolute;
+                                top: -16px;
+                                left: 10px;
+                                font-size: 12px;
+                                padding: 5px 16px;
+                                text-align: right;
+                            
+                            }
+                        }
+                }
+        }  
+        .forget-form
+        {
+            position: relative;
+            width: 480px;
+            height: 70%;
+            margin: auto;
+            margin-right: 370px;
+            // padding: 15px;
+            // background-color: #0B0865;
+            .auth-card
+            {
+                position: relative;
+                // background-color: rgb(40, 161, 56);
+                width: 100%;
+                height: 100%;
+                margin: auto;
+                // padding: 15px;
+                align-items: center;
+                
+                .logo
+                {
+                    position: relative;
+                    width: 100px;
+                    height: 100px;
+                    margin: auto;
+                    // background-color: rgb(76, 102, 23);
+                }
+
+                .form
+                {
+                    position: relative;
+                    width: 100%;
+                    height: 70%;
+                    text-align: center;
+                    padding: 15px;
+                    // background-color: #0B0865;
+                    .input-div{
+                        position: relative;
+                        width: 100%;
+                        height: 45px;
+                        
+                        background-color: white;
+                    
+                    }
+                    .input-div input,
+                    .input-div select,
+                    .input-div textarea{
+                        position: relative;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 0;
+                        border:none;
+                        border: 0.25px solid rgba(0, 0, 0, 0.281);
+                        border-radius: 5px;
+                        border-radius: 10px;
+                        
+                    }
+                    .input-div label{
+                        position: absolute;
+                        top: 5px;
+                        left: 5px;
+                        font-size: 16px;
+                        pointer-events: none;
+                        padding: 5px 18px;
+                        transition: 0.25s ease-in;
+                        background: #ffffff;
+                    }
+                    .input-div input:focus ~ label, .input-div input:valid ~ label,
+                    .input-div select:focus ~ label, .input-div select:valid ~ label{
+                    
+                        position: absolute;
+                        top: -16px;
+                        left: 10px;
+                        font-size: 12px;
+                        padding: 5px 16px;
+                        text-align: right;
+                    
+                    }
+                }
+            }  
+        }  
+    }
+}
+
+.notice
+{
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+    background-color: white;
+   
+    .logo
+    {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+    .notice-text 
+    {
+        text-align: center;
+        color: black;
+
+        a{
+            color: #013B57;
+        }
+    }
+    .notice-form 
+    {
+        text-align: center;
+        color: black;
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+
+        .reg-btnn
+        {
+            width: 200px;
+            height: 40px;
+            padding: 10px 0;
+            font-size: 16px;
+            line-height: 18px;
+            background-color: white;
+            // border: solid 1px #013B57;
+            color: #013B57;
+        }
+
+        a{
+            color: #013B57;
+        }
+    }
+    .notice-text a:hover{
+        text-decoration-line: none;
+    }
+}
+
+
+// @media screen and (max-width: 1025px){
+//     .app-auth{
+//         position: relative;
+//         width: 100%;
+//         display: block;
+//         background: #ffffff;
+//     }
+//     .app-auth .auth-box{
+//         position: relative;
+//         width: 100%;
+//         height: auto;
+//         padding-top: 50px;
+//         padding-bottom: 50px;
+//     }
+//     .app-auth{
+//         display: none;
+//     }
+
+// }
+
+.input-div{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    
+    background-color: white;
+
+}
+.input-div input,
+.input-div select{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    border:none;
+    border: 0.25px solid rgba(0, 0, 0, 0.281);
+    border-radius: 5px;
+    border-radius: 10px;
+    
+}
+.input-div label{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 16px;
+    pointer-events: none;
+    padding: 5px 18px;
+    transition: 0.25s ease-in;
+    background: #ffffff;
+}
+.input-div input:focus ~ label, .input-div input:valid ~ label,
+.input-div select:focus ~ label, .input-div select:valid ~ label{
+
+    position: absolute;
+    top: -16px;
+    left: 10px;
+    font-size: 12px;
+    padding: 5px 16px;
+    text-align: right;
+
+}

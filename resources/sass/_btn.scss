@@ -1,0 +1,109 @@
+
+.reg-btn{
+    width: 200px;
+    height: 40px;
+    padding: 10px 0;
+    font-size: 16px;
+    background-color: $primary;
+    line-height: 18px;
+    color: white;
+}
+
+// rgb(72, 19, 121)
+.reg-btn:hover
+{
+    color: white;
+}
+.btn{
+    border-radius: 10px;
+}
+.auth-btn
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    // background-color: yellow;
+}
+.log a
+{
+    width: 500px;
+    height: 40px;
+    padding: 10px 0;
+    margin: auto;
+    font-size: 16px;
+    line-height: 40px;
+    color: black;
+    text-decoration: none;
+}
+.mdpf a
+{
+    width: 400px;
+    height: 40px;
+    padding: 10px 0;
+    font-size: 16px;
+    line-height: 40px;
+    color: #013B57;
+    text-decoration: none;
+}
+.act-btn
+{
+    width: 115px;
+    height: 35px;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: $primary;
+    
+    a
+    {
+        color: white;
+        text-decoration: none;
+    }
+}
+.dact-btn
+{
+    width: 115px;
+    height: 35px;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: white;
+    border: solid 1px #FE9801;
+  
+    
+    a
+    {
+        color: #FE9801;
+        font-size: 16px;
+        text-decoration: none;
+    }
+}
+.edit-btn
+{
+    width: 115px;
+    height: 35px;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: white;
+    border: solid 1px #013B57;
+    color: #013B57;
+    
+}
+.edit-btn:hover
+{
+    color:#013B57 ;
+}
+
+.voir-btn:hover
+{
+    color:white ;
+}
+.voir-btn
+{
+    width: 90px;
+    height: 35px;
+    font-size: 16px;
+    line-height: 20px;
+    background-color:#226e8f ;
+    color:white ;    
+}
+

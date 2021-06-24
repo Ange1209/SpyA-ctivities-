@@ -1,0 +1,150 @@
+#manager-b
+{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    // text-transform: capitalize;
+
+    // background-color: brown;
+    .manager-c
+    {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+
+        .img-p
+        {
+            position: relative;
+            width: 100%;
+            height: 30%;
+            border-radius: 15px;
+            background-color: $primary;
+            
+            .circle
+            {
+                position: relative;
+                margin: auto;
+                margin-top: 35px;
+                height: 110px;
+                width: 110px;
+                border-radius: 50%;
+                background-color: white;
+                overflow: hidden;
+                // padding: 5px;
+            }
+        }
+
+        .info-b
+        {
+            position: relative;
+            width:100%;
+            height: 15%;
+            font-size: 18px;
+            padding-top: 10px;
+            padding-left: 2px;
+            // background-color: yellow;
+        }
+
+        .stat-ban
+        {
+            position: relative;
+            width: 100%;
+            height: 10%;
+            display: flex;
+            border-radius: 10px;
+            background-color: $primary;
+
+            .logo-p
+            {
+                position: relative;
+                width: 30%;
+                height: 100%;
+                padding: 5px;
+                overflow: hidden;
+                // background-color: violet;
+            }
+            .title
+            {
+                width: 70%;
+                padding: 17px 0 0 5px;
+                font-size: 22px;
+                color: white;
+            }
+        }
+
+        .stat-c
+        {
+            position: relative;
+            width: 100%;
+            height: 45%;
+            // background-color: turquoise;
+            .stat-box
+            {
+                position: relative;
+                width: 100%;
+                height: 30%;
+                margin-top: 7px;
+                // display: cent;
+                justify-content: center;
+                // background-color: wheat;
+
+                .icon-b
+                {
+                    position: relative;
+                    width: 60px;
+                    height: 60px;
+                    // background-color: ;
+                    border: solid 1px $primary;
+                    padding: 15px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    margin: auto;
+                }
+                .count
+                {
+                   
+                    display: none;
+                }
+            }
+            .stat-box:hover
+            {
+                position: relative;
+                width: 100%;
+                height: 30%;
+                margin-top: 7px;
+                display: flex;
+                justify-content: space-between;
+                // background-color: wheat;
+
+                .icon-b
+                {
+                    position: absolute;
+                    left: 2px;
+                    // width: 30%;
+                    // height: 100%;
+                    // // background-color: yellow;
+                    // padding: 15px;
+                    // overflow: hidden;
+                }
+                .count
+                {
+                    position: absolute;
+                    right: 2px;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background-color: $primary;
+                    // width: 50%;
+                    color: white;
+                    display: inline;
+                    text-align: center;
+                    font-size: 18px;
+                    margin-top: 10px;
+                    // padding-top: 10px;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+}
