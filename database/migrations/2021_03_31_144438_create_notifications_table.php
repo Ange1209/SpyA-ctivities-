@@ -14,7 +14,7 @@ class CreateNotificationsTable extends Migration
             $table->string('ref')->unique();
             $table->text('description')->nullable();
             $table->unsignedBigInteger('user_id');
-            $table->foreign('manager_id')->references('id')->on('users');
+            $table->foreign('user_id')->references('id')->on('users');
             $table->unsignedBigInteger('bonus_id');
             $table->foreign('bonus_id')->references('id')->on('bonuses');
             $table->timestamps();
